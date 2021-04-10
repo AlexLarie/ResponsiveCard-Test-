@@ -1,0 +1,50 @@
+@import 'nullstyle';
+@import 'card';
+
+
+body{
+   background-color: bisque;
+}
+.container{
+   max-width: 1280px;
+   margin: 0 auto;
+   
+}
+
+.text2{
+   //styleName: Paragraph;
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #989691;
+   &--blue{
+      color: #2794DB;
+
+   }
+
+   &--red{
+      //styleName: Medium / Paragraph-medium;
+      font-weight: 500;
+      color: #EB4B51;
+      ;
+   }
+}
+
+.text{
+   //styleName: Caption;
+   font-family: 'Roboto';
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #989691;
+   ;
+}
+
+

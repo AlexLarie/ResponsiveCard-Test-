@@ -1,0 +1,181 @@
+.card{
+   &__inner{
+      max-width: 1200px;
+      
+      display: grid;
+      position: relative;
+      margin: 40px auto;
+      padding: 24px 32px 24px 0px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.04);
+      grid-template-columns: 234px 1fr 299px;
+   }
+   &__content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   &__img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__title{
+      //styleName: Heading 3;
+      font-family: "Roboto";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383736;
+   }
+   &__status{
+      //styleName: Medium / Caption-medium;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      border-radius: 22px;
+      height: 32px;
+      padding: 0px 16px 0px 14px;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--green{
+         background: #F2FAF0;
+         color: #64B851;
+      }
+      &--red{
+         background: #FAF0F0;
+         color: #EB4B51;
+      }
+      &--img{
+         margin-right: 9px;
+      }
+      &:first-of-type{
+         margin-right: 12px;
+      }
+   }
+
+}
+
+.description{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 12px;
+   max-width: 384px;
+   &__count{
+      //styleName: Medium / Paragraph-medium;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383736;
+   }
+   &__item{
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+.price{
+   padding-left: 31px;
+   border-left: 1px solid #F0EEEB;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   &__price{
+      //styleName: Heading 3;
+      font-family: "Roboto";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383736;
+      margin-bottom: 12px;
+   }
+   &__button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 44px;
+      border-radius: 6px;
+      padding: 12px, 16px, 12px, 16px;
+      margin-top: 22px;
+      background: #FAC62D;
+      &--img{
+         margin-right: 9px;
+      }
+      &--text{
+         //styleName: Medium / Paragraph-medium;
+         font-family: Roboto;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 20px;
+         letter-spacing: 0em;
+         text-align: left;
+         color: #383736;
+      }
+      &:hover{
+         background: #F0B505;
+      }
+      &:active{
+         background: #E1AB08;
+      }
+   }
+   &__cross{
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      border-radius: 4px;
+      background-color: #fff;
+      top: 14px;
+      right: 14px;
+      &::before{
+         content: '';
+         background-color: #C4C4C4;
+         height: 2.1px;
+         width: 18.93px;
+         position: absolute;
+         transform: rotate(-45deg);
+         top: 13px;
+         left: 5px;
+      }
+      &::after{
+         content: '';
+         background-color: #C4C4C4;
+         height: 2.1px;
+         width: 18.93px;
+         position: absolute;
+         transform: rotate(45deg);
+         top: 13px;
+         left: 5px;
+      }
+      &:hover{
+         background: #F5F4F2;
+         &:after{
+            background-color: black;
+         }
+         &:before{
+            background-color: black;
+         }
+      }
+      &:active{
+         background: #E7E4DE;
+      }
+   }
+}

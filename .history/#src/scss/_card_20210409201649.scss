@@ -1,0 +1,16 @@
+.card{
+   &__inner{
+      max-width: 1200px;
+      height: 226px;
+      display: grid;
+      margin: 40px auto;
+      padding: 24;
+      background-color: #fff;
+      grid-template-columns: 234px 1fr 331px;
+   }
+   &__img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}

@@ -1,0 +1,8 @@
+.card{
+   &__inner{
+      max-width: 1200px;
+      max-height: 226px;
+      display: grid;
+      grid-template-columns: 234px 1fr ;
+   }
+}

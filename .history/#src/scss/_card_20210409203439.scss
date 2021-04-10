@@ -1,0 +1,67 @@
+.card{
+   &__inner{
+      max-width: 1200px;
+      height: 226px;
+      display: grid;
+      margin: 40px auto;
+      padding: 24px 32px 24px 0px;
+      background-color: #fff;
+      grid-template-columns: 202px 1fr 331px;
+   }
+   &__img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__title{
+      //styleName: Heading 3;
+      font-family: "Roboto";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383736;
+   }
+   &__status{
+      //styleName: Medium / Caption-medium;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      display: inline-block;
+      border-radius: 22px;
+      padding: 6px 16px 6px 36px;
+      position: relative;
+      &--green{
+         background: #F2FAF0;
+         color: #64B851;
+         &::before{
+            content: url();
+         }
+      }
+      &--red{
+         background: #FAF0F0;
+         color: #EB4B51;
+      }
+   }
+
+}
+
+.description{
+   &__count{
+      //styleName: Medium / Paragraph-medium;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383736;
+   }
+}
