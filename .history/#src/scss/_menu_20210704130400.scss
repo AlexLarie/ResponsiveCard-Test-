@@ -1,0 +1,54 @@
+.menu{
+   background-color: $menu-color;
+   &__item{
+      position: relative;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: all .3s ease;
+   }
+   .active{
+      background: rgba(0, 0, 0, 0.15);
+   }
+   &__img{
+      margin-bottom: 20.8px;
+      transition: all .3s ease;
+   }
+   &__text{
+      color: white;
+      opacity: 0.8;
+      transition: all .3s ease;
+   }
+   &__logo{
+      height: 112px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__arrow{
+      height: 83px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+   }
+   &__counter{
+      position: absolute;
+      
+      
+      border: 5px solid $menu-color;
+      bottom: 105px;
+      right: 33px;
+      span{
+         background: rgba(253, 114, 106, 1);
+         display: inline-block;
+         width: 21px;
+         height: 21px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+      }
+   }
+}

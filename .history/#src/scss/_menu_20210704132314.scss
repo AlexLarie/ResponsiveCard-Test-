@@ -1,0 +1,59 @@
+.menu{
+   background-color: $menu-color;
+   &__item{
+      position: relative;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      &:hover .menu__counter{
+         border-color: #385eaf;
+         // #0E3A96
+      }
+   }
+   .active{
+      background: rgba(0, 0, 0, 0.15);
+   }
+   &__img{
+      margin-bottom: 20.8px;
+   }
+   &__text{
+      color: white;
+      opacity: 0.8;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 19.5px;
+      font-family: $main-font;
+   }
+   &__logo{
+      height: 112px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__arrow{
+      height: 83px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+   }
+   &__counter{
+      position: absolute;
+      border: 5px solid $menu-color;
+      bottom: 105px;
+      right: 33px;
+      span{
+         background: rgba(253, 114, 106, 1);
+         display: inline-block;
+         width: 21px;
+         height: 21px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-family: $main-font;
+      }
+   }
+}

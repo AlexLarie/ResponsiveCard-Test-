@@ -1,0 +1,20 @@
+.menu{
+   background-color: $menu-color;
+   &__item{
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   &__img{
+      margin-bottom: 20.8px;
+   }
+   &__text{
+      color: white;
+      opacity: 0.8;
+   }
+   &__logo{
+      hei
+   }
+}

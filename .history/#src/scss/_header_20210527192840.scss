@@ -1,0 +1,117 @@
+.header{
+   background-image: url(../img/header.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 40px 0px 66px 0px;
+   color: white;
+   position: relative;
+   &::before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px;
+      background-color: rgba(70, 70, 70, 0.692);
+   }
+   &__top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 50px;
+   }
+   &__left{
+      display: flex;
+      align-items: center;
+   }
+   &__bottom{
+      position: relative;
+      z-index: 1;
+   }
+   &__logo{
+      svg{
+         width: 78px;
+         height: 50px;
+      }
+      margin-right: 120px;
+   }
+   &__number{
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: left;
+      @media (max-width: 848px) {
+         display: none;
+      }
+   }
+   &__text{
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: right;
+      margin-top: 3px;
+      @media (max-width: 848px) {
+         display: none;
+      }
+   }
+   &__title{
+      font-family: 'Montserrat';
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 46px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+}
+
+.menu{
+   &__list{
+      display: flex;
+      
+      
+   }
+   &__item{
+      margin-right: 50px;
+      &:last-of-type{
+         margin-right: 0px;
+      }
+   }
+   a{
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffffa1;
+      transition: all .2s ease ;
+      &:hover{
+         color: white;
+      }
+      &:active{
+         color: yellow;
+      }
+   }
+}
+.phone{
+   color: green;
+   font-size: 80px;
+   position: fixed;
+   right: 40px;
+   top: 40px;
+}
+
+@keyframes identifier {
+   
+}
+

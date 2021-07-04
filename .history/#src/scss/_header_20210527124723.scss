@@ -1,0 +1,16 @@
+.header{
+   background-image: url(../img/header.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 40px 0px 66px 0px;
+   color: white;
+   
+   &__top{
+      display: flex;
+      justify-content: space-between;
+      
+   }
+   a{
+      color: white;
+   }
+}

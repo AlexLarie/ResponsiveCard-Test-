@@ -1,0 +1,14 @@
+.dialogs{
+   border-right: 1px solid $border-color ;
+   height: 100%;
+   &__search{
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input{
+         display: inline-block;
+         
+      }
+   }
+}

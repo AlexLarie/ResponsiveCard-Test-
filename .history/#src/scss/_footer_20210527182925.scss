@@ -1,0 +1,80 @@
+.footer{
+   background: #1F2021;
+   padding: 91px 80px 92px 80px;
+   color: white;
+   display: grid;
+   grid-template-columns: 40% 60%;
+   &__name{
+      font-family: 'Montserrat';
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 26px;
+   }
+   &__left{
+      display: flex;
+      flex-direction: column;
+   }
+   &__text{
+      font-family: 'Montserrat';
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+   &__form{
+      display: grid;
+      grid-template-columns: 3fr 2.5fr;
+      grid-gap: 16px;
+      height: 65px;
+      margin-bottom: 24px;
+   }
+   &__input{
+      border-radius: 10px;
+      padding: 22px;
+      font-size: 14px;
+      line-height: 17px;
+   }
+   &__button{
+      border-radius: 10px;
+      background: #6EBBD3;
+      color: white;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0em;
+      transition: all .3s ease;
+      &:hover{
+         background-color: #52818fb7;
+         color: wheat;
+      }
+   }
+   &__label{
+      font-family: 'Montserrat';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+   #footerCheckbox{
+      opacity: 0;
+      visibility: hidden;
+   }
+   .checkbox{
+      width: 18px;
+      height: 18px;
+      margin-right: 22px;
+      background-color: #fff;
+      display: inline-block;
+      border
+   }
+}

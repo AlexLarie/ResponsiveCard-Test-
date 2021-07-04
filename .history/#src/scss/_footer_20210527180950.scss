@@ -1,0 +1,20 @@
+.footer{
+   background: #1F2021;
+   padding: 91px 80px 92px 80px;
+   color: white;
+   display: grid;
+   grid-template-columns: 40% 60%;
+   &__name{
+      font-family: Montserrat;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+   &__left{
+      display: flex;
+      fl
+   }
+}
